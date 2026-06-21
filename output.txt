@@ -1,0 +1,48 @@
+SmartGuard Embedded Monitoring System - Starting...
+Simulating 15 sensor readings...
+
+[16:53:15] Reading #1   -> 53.0 C [NORMAL]
+[16:53:15] Reading #2   -> 44.0 C [NORMAL]
+[16:53:15] Reading #3   -> 69.0 C [WARNING]
+   >>> WARNING: temperature elevated (69.0 C) - increasing monitoring frequency.
+[16:53:15] Reading #4   -> 58.0 C [NORMAL]
+[16:53:15] Reading #5   -> 46.0 C [NORMAL]
+[16:53:15] Reading #6   -> 41.0 C [NORMAL]
+[16:53:15] Reading #7   -> 47.0 C [NORMAL]
+[16:53:15] Reading #8   -> 49.0 C [NORMAL]
+[16:53:15] Reading #9   -> 64.0 C [WARNING]
+   >>> WARNING: temperature elevated (64.0 C) - increasing monitoring frequency.
+[16:53:15] Reading #10  -> 50.0 C [NORMAL]
+[16:53:15] Reading #11  -> 89.0 C [CRITICAL]
+   >>> ALERT: CRITICAL temperature (89.0 C) - shutting down non-essential systems!
+[16:53:15] Reading #12  -> 58.0 C [NORMAL]
+[16:53:15] Reading #13  -> 65.0 C [WARNING]
+   >>> WARNING: temperature elevated (65.0 C) - increasing monitoring frequency.
+[16:53:15] Reading #14  -> 65.0 C [WARNING]
+   >>> WARNING: temperature elevated (65.0 C) - increasing monitoring frequency.
+[16:53:15] Reading #15  -> 57.0 C [NORMAL]
+
+==================================================
+ SMARTGUARD - MONITORING SUMMARY REPORT
+==================================================
+[16:53:15] Reading #1   Temp:  53.0 C  State: NORMAL
+[16:53:15] Reading #2   Temp:  44.0 C  State: NORMAL
+[16:53:15] Reading #3   Temp:  69.0 C  State: WARNING
+[16:53:15] Reading #4   Temp:  58.0 C  State: NORMAL
+[16:53:15] Reading #5   Temp:  46.0 C  State: NORMAL
+[16:53:15] Reading #6   Temp:  41.0 C  State: NORMAL
+[16:53:15] Reading #7   Temp:  47.0 C  State: NORMAL
+[16:53:15] Reading #8   Temp:  49.0 C  State: NORMAL
+[16:53:15] Reading #9   Temp:  64.0 C  State: WARNING
+[16:53:15] Reading #10  Temp:  50.0 C  State: NORMAL
+[16:53:15] Reading #11  Temp:  89.0 C  State: CRITICAL
+[16:53:15] Reading #12  Temp:  58.0 C  State: NORMAL
+[16:53:15] Reading #13  Temp:  65.0 C  State: WARNING
+[16:53:15] Reading #14  Temp:  65.0 C  State: WARNING
+[16:53:15] Reading #15  Temp:  57.0 C  State: NORMAL
+--------------------------------------------------
+ Total Readings : 15
+ Normal         : 10
+ Warning        : 4
+ Critical       : 1
+==================================================
